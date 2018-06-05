@@ -21,7 +21,7 @@
 			
 		$fp = fopen("articles/".$id.'_'.$_SESSION['login'].".txt",w);
 		
-			
+        htmlentities($tresc);
 		fputs($fp,nl2br($tresc));
 			
 		fclose($fp);
