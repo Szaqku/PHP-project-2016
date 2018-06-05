@@ -1,0 +1,51 @@
+div#pole {
+	
+		background-color: #333;
+		padding: 30px;
+}
+div#pole > form > textarea {
+	
+	width: 90%;
+	height: 400px;
+	display: block;
+	margin: 10px auto 10px auto;
+	box-sizing: border-box;
+	font-size: 120%;
+	resize: none;
+	
+}
+div#pole > form > input[type=submit]{
+	
+	background-color: #36cb03;
+	padding: 10px 20px;
+	margin: 5px auto 0px auto;
+	border: 2px solid #333;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: #eee;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 110%;
+	display: block;
+	
+}
+div#pole > form > input[type=text]{
+	
+	width: 90%;
+	border: 2px solid #333;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin: 5px auto 0px;
+	box-sizing: border-box;
+	background-color: #666;
+	color: white;
+	font-weight: bold;
+	font-size: 160%;
+	display: block;
+}
+div#pole > p#reg {
+	
+	font-size: 90%;
+	color: grey;
+}

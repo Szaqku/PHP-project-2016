@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext);
+
+form#logowanie > div {
+	width: 300px;
+	height: 350px;
+	font-family: 'Bree Serif', serif;
+	margin: 120px auto;
+	text-align: center;
+	font-weight: bold;
+	padding: 40px 70px;
+	letter-spacing: 0.1em;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.75);
+	-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.75);
+	border: 4px solid white;
+	border-radius: 7px;
+}
+
+form#logowanie > div > input[type=text] {
+	width: 300px;
+	border: 2px solid #333;
+	border-radius: 4px;
+	padding: 20px 10px;
+	margin: 5px auto 0px;
+	box-sizing: border-box;
+	background-color: #666;
+	color: white;
+	font-weight: bold;
+	font-size: 160%;
+}
+form#logowanie > div > input[type=password] {
+	width: 300px;
+	border: 2px solid #333;
+	border-radius: 4px;
+	padding: 20px 10px;
+	margin: 5px auto 0px;
+	box-sizing: border-box;
+	background-color: #666;
+	color: white;
+	font-weight: bold;
+	font-size: 160%;
+}
+
+form#logowanie > div > p {
+	font-size: 290%;
+	margin: 5px auto 10px auto;
+	padding: 5px 0px 5px 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgba(255,190,85,1);
+	-webkit-text-shadow: 1px -1px -1px black;
+	-webkit-text-stroke: 0.1px black;
+	
+}
+
+form#logowanie > div > p#rej {
+	font-size: 16px;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 0px;
+	
+}
+form#logowanie > div > input[type=submit]{
+	width: 300px;
+	background-color: #36cb03;
+	padding: 20px 20px;
+	margin: 25px auto 0px auto;
+	border: 2px solid #333;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: #eee;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 110%;
+}
+form#logowanie > div > input[type=submit]:focus{
+	background-color: #26ba02;
+}
+form#logowanie > div > input[type=password]:focus{
+	background-color: #555;
+}
+form#logowanie > div > input[type=text]:focus{
+	background-color: #555;	
+}
+
+/* 		
+		<form id="logowanie"> <div>
+		<p class="Logowanie"> Logowanie </p>
+	    <input type="text" placeholder="Login" />
+	    <input type="password" placeholder="Hasło" /> 
+		<input type="submit" value="Zaloguj" />
+		</div> </form> 	
+*/

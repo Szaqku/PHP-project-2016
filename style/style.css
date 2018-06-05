@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin-ext,latin);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url("formularz.css");
+@import url("opinia.css");
+@import url("info.css");
+@import url("logowanie_b.css");
+@import url("rejestracja_b.css");
+@import url("rejestr.css");
+@import url("article.css");
+@import url("sonda.css");
+
+input {
+	
+	outline: none;
+}
+body {
+	background-image: url('../img/stardust.png');	/* This pattern is downloaded from www.subtlepatterns.com If you need more, that's where to get'em. */
+	background-attachment: fixed;
+	color: white;	
+	margin: 0px 0px;
+	font-family: 'Slabo 27px', sans-serif;
+	cursor: default;
+}
+div#logo {
+	font-size: 600%;
+	text-align: center;
+	margin: 0px auto;
+	padding: 25px 0px;
+	font-family: 'Russo One', sans-serif;
+}
+span.cR {
+	color: #ff0033;
+}
+nav {
+	width: 75%;
+	height: 60px;
+	margin: 10px auto; 
+	text-align: center;
+}
+nav > ul {
+
+	margin: 0px auto;
+	width: 100%;
+	padding: 0px 0px;
+}
+nav > ul > a > li.p {
+	width: 20%;
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 20px 0px;
+	text-align: center;
+	margin: 0px 0px;
+	font-weight: bold;
+	background-image: url("../img/menu_option.png");
+	background-size: cover;
+}
+nav > ul > a > li.np
+{
+	width: 20%;
+	display: block;
+	float: left;
+	height: 20px;
+	padding: 20px 0px;
+	text-align: center;
+	margin: 0px 0px;
+	font-weight: bold;
+	background-image: url("../img/menu_option.png");
+	background-size: cover;
+}
+
+
+nav > ul > a {
+	text-decoration: none;
+	color: inherit
+}
+
+div#footer {
+	margin: 0px auto;
+	width: 75%;
+	background-color: #999;
+	padding: 16px 0px;
+	text-align: center;
+	font-size: 110%;
+	
+}
+div#tresc {
+	width: 75%;
+
+	margin: 10px auto;
+}
+
+div#strona {
+	
+	width: 74.5%;
+	min-height: 200px;
+	background-color: grey;
+	margin: 10px auto;
+	
+}
+#tresc_strony {
+	
+	width: 100%;
+	min-height: 200px;
+	background-color: #777;
+	float: left;
+	margin: 0px auto;
+	padding: 10px 0px
+}
+
+#narzedzia {
+	
+	width:100%;
+	background-color: #666;
+	padding: 10px 0px;
+	
+}
+div#narzedzia > div {
+	
+	margin: 0px auto;
+	width: 30%;
+	color: black;
+	font-family: 'Slabo 27px', sans-serif;
+	font-weight: bold;
+
+}
+div#narzedzia > div#dodaj > form > input[type=submit]{
+	
+	width: 100%;
+	
+}
+div#narzedzia > div > form > input[type=submit]{
+	
+	height: 50px;
+	color: white;
+	width: 80px;
+	background-color: #3F4275;
+	padding: 0px 5px;
+	font-size: 130%;
+	box-sizing: border-box;
+	border: 2px solid white;
+	outline: none;
+	cursor: pointer;
+}
+div#narzedzia > div > form > input[type=submit]:hover {
+	
+	background-color: #2E3164;
+}
+div#narzedzia > div > form > input[type=submit]:active {
+	
+	background-color: white;
+	border: 2px solid #2E3164;
+	color: #2E3164;
+}
+nav > ul > a > li:hover{
+	background-color: #888;
+	padding: 21px 0px
+}
+
+div#tresc_strony > .article {
+	
+	font-family: 'Nunito', sans-serif;
+	width: 87%;
+	background-color: #444;
+	font-size: 110%;
+	display: block;
+	margin: 15px auto;
+	padding: 20px 20px 10px 20px;
+	border-collapse: collapse;
+	letter-spacing: 0.1em;
+	
+}
+
+p.title {
+	 
+	 text-align: center;
+	 font-size: 120%;
+	 font-weight: bold;
+	 border-top: 3px dotted #4D658D;
+	 border-bottom: 3px dotted #4D658D;
+	 padding: 10px 0px;
+	 margin: 0px 0px;
+}
+p.content {
+	
+	
+}
+
+p.podpis {
+	
+	text-align: right;
+	
+}
+#tresc_strony > div > div > div > form.usun > input[type="submit"] {
+	
+	background-color: #FF1E00;
+	color: white;
+	border: none;
+	padding: 8px 25px;	
+	cursor: pointer;
+	outline: none;
+}
+#tresc_strony > div > div > div > form.usun > input[type="submit"]:hover {
+	
+	background-color: #EE0D00;
+	
+	
+}
+#tresc_strony > div > div > div > form.usun > input[type="submit"]:active {
+	
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	border: none;
+	
+	
+}

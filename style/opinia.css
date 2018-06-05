@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext);
+
+#Opinia{
+	width: 600px;
+	min-height: 550px;
+	margin: 60px auto;
+	background-color: grey;
+	font-family: 'Bree Serif',serif;
+	font-size: 140%;
+	-webkit-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.75);
+	-box-shadow: 0px 0px 64px -2px rgba(0,0,0,0.75);
+	border: 4px solid grey;
+	border-radius: 7px;
+	letter-spacing: 0.06em;
+}
+/*
+table#Opinia td,  tr {
+	border: 1px solid white;
+} 
+*/
+table#Opinia tr > td > input{
+	padding: 5px 5px;
+	width: 345px;
+	margin: 3px 5px 3px 2px;
+	font-size: 105%;
+	border: 2px solid white;
+	border-radius: 3px;
+}
+table#Opinia  td#Wyslij_Opinie{
+	font-size: 180%;
+	text-transform: uppercase;
+	color: rgba(255,190,85,1);
+	-webkit-text-shadow: 1px -1px -1px black;
+	-webkit-text-stroke: 0.1px black;
+	padding: 20px 0px;
+	text-align: center;
+}
+table#Opinia tr >td#Tresc {
+	text-align: center;
+	margin: 10px 0px 0px 2px;
+}
+table#Opinia tr > td > textarea {
+	width: 430px;
+	height: 300px;
+	resize: none;
+	font-size: 90%;
+	margin: 10px auto;
+	padding: 10px 10px;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+table#Opinia tr > td#ta {
+	text-align:center;
+}
+table#Opinia  tr > td.Pole {
+	width: 82.5px;
+	padding-left: 75px;
+}
+table#Opinia td#Submit{
+	text-align: center;
+}
+table#Opinia input[type=submit] {
+	width: 455px;
+	margin: 0px 0px 15px 0px;
+	padding: 10px 0px;
+	background-color: #36cb03;
+	border: grey;
+	border-radius: 4px;
+	color: white;
+}
+table#Opinia input[type=submit]:hover {
+	background-color: #25ba02;
+	cursor: pointer;
+}

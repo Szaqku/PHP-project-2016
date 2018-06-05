@@ -1,0 +1,12 @@
+﻿Wersja PHP użyta do pisania strony: <span style="color: red;"> PHP 5.6 </span><br />
+<span style="color: limegreen;">&#9745;</span> <span style="color: #99FF00;">Logowanie</span> &#8594; zakładka "<span style="color:#3399FF;">Logowanie</span>".<br />
+<span style="color: limegreen;">&#9745;</span> <span style="color: #99FF00;">Rejestracja</span> &#8594; zakładka "<span style="color:#3399FF;">Logowanie</span>".<br />
+<span style="color: limegreen;">&#9745;</span> <span style="color: #99FF00;">Wysyłanie poczty</span> &#8594; zakładka "<span style="color:#3399FF;">Wyślij Opinie</span>".<br />
+<span style="color: limegreen;">&#9745;</span> <span style="color: #99FF00;">Sonda</span> &#8594; zakładka "<span style="color:#3399FF;">Sonda</span>".<br />
+<span style="color: limegreen;">&#9745;</span> <span style="color: #99FF00;">Licznik odwiedzin</span> &#8594; dostępne po zalogowaniu, zakładka "<span style="color:#3399FF;">Info</span>".<br />
+<span style="color: limegreen;">&#9745;</span> <span style="color: #99FF00;">Dodawanie wiadomości</span> &#8594; dostępne po zalogowaniu na konto o randze "Admin" lub "Mod".<br />
+<br />
+Login do konta Admina: <span style="color: yellow; letter-spacing: 0.1em;"> Admin </span><br />
+Hasło do konta Admina: <span style="color: yellow; letter-spacing: 0.1em;"> password </span><br />
+<br />
+

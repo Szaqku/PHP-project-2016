@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext);
+
+div#informacje {
+	
+	width: 100%;
+	height: 650px;
+	background-color:grey;
+	margin: 15px auto;
+	
+
+}
+
+div#informacje > div#info{
+	
+	float: left;
+	margin: 50px 0px 0px 0px;
+	height: 550px;
+	width: 30%;
+	
+	background-color: #666;
+	letter-spacing: 0.1em;
+}
+
+div#informacje > div#info > p {
+	
+	color: white;
+	text-shadow: -1px -1px 1px black;
+	font-size: 160%;
+	font-weight: bold;
+	margin: 4px 0px;
+	font-family: 'Bree Serif', sans;
+	padding-left: 10px;
+	
+	
+}
+div#informacje > div#info > p#ranga{
+	
+	color: yellow;
+	text-shadow: -1px -1px 1px black;
+	text-align: center;
+	margin-top: 170px;
+
+}
+div#informacje > div#info > p > span {
+	
+	color: orange;
+}
+div#informacje > div#info > img {
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: 15px auto 0px auto;
+	
+}
+div#informacje > div#col2 {
+	
+	float: left;
+	margin: 50px 0px 0px 0px;
+	height: 550px;
+	width: 67.9%;
+	background-color: grey;
+}
+div#informacje > div#col2 > p#licznik{
+	
+	background-color: #666;
+	width: 95%;
+	margin: 0px auto;
+	padding: 15px 0px 15px 10px;  
+	text-shadow: -1px -1px 1px black;
+	font-size: 190%;
+	font-weight: bold;
+	font-family: 'Bree Serif', sans;
+}
+div#informacje > div#col2 > div#panel {
+
+	height: 460px;	
+	background-color: #666;
+	width: 95%;
+	padding-left: 10px;
+	margin: 15px auto 0px auto;
+}
+
+div#col2 > p#licznik > span.licznik {
+	
+	color: #36c032;
+	text-shadow: 0px 1px 1px black;
+	font-weight: bold;
+	margin: 4px 10px;
+	font-family: 'Bree Serif', sans;
+	font-size: 105%;
+}
+
+div#col2 > div#panel > p.list {
+	
+	margin: 5px 0px 0px  15px;
+	font-size: 140%;
+	font-family: 'Bree Serif', sans; 
+	letter-spacing: 0.01em;
+}
+div#col2 > div#panel > ul {
+	
+	margin: 0px 0px 0px 2px;
+	font-size: 130%;
+	font-family: 'Bree Serif', sans; 
+	letter-spacing: 0.01em;
+}
+div#col2 > div#panel > ul > li{
+
+	display: inline;
+}
+div#col2 > div#panel > div#zmiana_hasla {
+	
+	margin: 0px 0px 0px 15px;
+}
+div#col2 > div#panel > p#good {
+	
+	margin: 2px 0px 0px 15px;
+	color: lightgreen;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px black;
+
+}
+div#col2 > div#panel > p#bad {
+	
+	margin: 2px 0px 0px 15px;
+	color: #E34141;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px black;
+
+}
+	
+

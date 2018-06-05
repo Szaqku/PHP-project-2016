@@ -1,0 +1,157 @@
+div#vote  input[type="radio"] {
+
+	display: none;
+	color: yellow;
+	font-size: 150%;
+	
+}
+
+div#vote ul li input[type="radio"] + label span {
+	
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url('../img/radio.png') left top no-repeat;
+    cursor:pointer;
+}
+div#vote ul li input[type="radio"]:checked + label span {
+	
+    background:url('../img/radio_checked.png')  top no-repeat;
+
+}
+div#vote {
+		
+	display: block;
+	width: 35%;
+	background-color: grey;
+	color: yellow;
+	padding-bottom: 20px;
+	margin: 10px 0px 20px 0px;
+	float: left;
+	min-height: 300px;
+}
+
+div#vote > p {
+	
+	color: orange;
+	text-shadow: -1px 1px 2px black;
+	font-size: 180%;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+}
+div#vote > input[type=submit] {
+
+	display: block;
+	margin: 0px auto;
+	
+}
+div#vote > ul > li >label {
+	
+	
+	font-size: 135%;
+}
+div#vote > ul > li {
+	
+	list-style-type: none;
+}
+div#vote > ul {
+	
+	margin-left: 15px;
+}
+div#vote > input[type=submit]:focus{
+	
+	background-color: #26ba02;
+}
+div#vote > input[type=submit]{
+	
+	width: 120px;
+	background-color: #36cb03;
+	padding: 5px 20px;
+	margin: 5px auto 0px auto;
+	border: 2px solid #333;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: #eee;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 110%;
+}
+div#puste {
+	
+	width: 2.5%;
+	padding: 5px 0px;
+	margin: 10px 0px 20px 0px;
+	min-height: 310px;
+	float: left;
+} 
+
+div#sonda {
+	
+	width: 62.5%;
+	margin: 10px 0px 20px 0px;
+	min-height: 310px;
+	background-color: #666;
+	float:left;
+	padding: 5px 0px;
+
+}
+
+div#sonda > ul > li {
+	
+	list-style-type: none;
+	margin: 0px 0px;
+	BORDER-BOTTOM: 1px solid #111;
+	border-collapse: collapse;
+	height: 50px;
+	position: relative;
+}
+div#sonda > ul {
+	
+	display: block;
+	width: 90%;
+}
+div#sonda ul li img {
+	
+	height:42px;
+}
+div#vote img {
+	
+	width: 23px;
+	height: 23px;
+}
+div#sonda > ul > li > span > img {
+		
+	height: 23px;	
+}
+
+#sonda > ul > li > img {
+	
+	padding-top: 8px;
+}
+#sonda > ul > li> span.img_text {
+	
+	position: absolute;
+	bottom:5px;
+	right: 10px;
+	font-size: 120%;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-family: Verdana,sans-serif;
+}
+#sonda > ul > li> span.img_tx{
+	
+	position: absolute;
+	bottom:  5px;
+	left: 5px;
+	font-size: 120%;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-family: Verdana,sans-serif;
+	
+}
